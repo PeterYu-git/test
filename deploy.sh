@@ -2,7 +2,6 @@
 set -e
 cd pmp-project-manager
 npm install
-npm install -g vite
 npm run build
 cd ..
 rm -rf pmp-project-manager/*
